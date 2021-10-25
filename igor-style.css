@@ -1,0 +1,122 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+    background: #373737;
+    width: 100%;
+    margin: 0 auto 2em;
+}
+
+header {
+	background: #ac9a4b;
+	padding: 30px 0;
+    background: linear-gradient(#8b8b8b, #373737);
+}
+
+.cabecalho {
+	position: relative;
+	width: 1600px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 150px;
+	right: 200px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+h2 {
+    font-size: 2.3em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 1.5em 0;
+}
+
+
+.paragrafo-justificado {
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 5ch;
+    color: white;
+    width: 940px;
+    margin: 0 0 0 500px;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+
+.teste {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.habilidades {
+	margin: 0 auto;
+	padding: 50px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.habilidades:hover {
+    color: yellow;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-basis: auto;
+}
+
+.lista-habilidades li {
+	text-align: center;
+	margin: 10px;
+	padding: 15px;
+    width: 150px;
+    box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+.lista-habilidades li:hover {
+    box-sizing: border-box;
+	border: 2px solid yellow;
+	border-radius: 15px;
+}
+
+.mapa-conteudo {
+    padding: 2em 0;
+    width: 940px;
+    text-align: center;
+    margin: 0 0 0 500px;
+}
+
+footer {
+	text-align: center;
+    padding: 80px 0 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+    line-height: 1.8;
+}
